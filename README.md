@@ -1,8 +1,8 @@
-##**Web Scraping:** 
+## **Web Scraping:** ##
 
 This project utilizes web scraping techniques to extract data from news websites.
 
-###**Technologies Used**
+### **Technologies Used** ###
 
 **Python:** The programming language used for web scraping due to its rich ecosystem of libraries and tools such as Scrapy.
 **Scrapy:** An open-source and collaborative web crawling framework for Python used for efficiently extracting the data from websites.
