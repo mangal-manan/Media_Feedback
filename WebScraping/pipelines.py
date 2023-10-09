@@ -15,7 +15,7 @@ class MongoDBPipeline:
     def from_crawler(cls, crawler):
         return cls(
             mongodb_uri=crawler.settings.get('mongodb://localhost:27017/'),
-            mongodb_db=crawler.settings.get('SIH_Scraped', 'items')
+            mongodb_db=crawler.settings.get('ScrapedDB', 'Collection')
         )
 
     def open_spider(self, spider):
